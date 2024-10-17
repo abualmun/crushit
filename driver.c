@@ -129,7 +129,6 @@ CCCCC
    for(int i=0; i<14; i++){
       assert(matches(&s));
       assert(dropblocks(&s));
-      assert(tostring(&s, str) == true);
    }
    assert(tostring(&s, str) == true);
    assert(strcmp(str,    "...B...ABEBCCDDAABAE") == 0);

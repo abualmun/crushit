@@ -139,7 +139,7 @@ bool tostring(const state* s, char* str) {
 
     // Null-terminate the output string
     str[output_index] = '\0';
-    printString(str);
+    // printString(str);
     return true;
 }
 #include "crushit.h"
